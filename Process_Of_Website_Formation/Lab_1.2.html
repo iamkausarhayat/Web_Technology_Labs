@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning day 2</title>
+</head>
+<body>
+
+
+    <form action="#" method="POST">
+        
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter Your Name" required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+        </div>
+        <br>
+
+        <h3>Semester/Year Selection</h3>
+        <input type="radio" id="year1" name="year_selection" value="1st Year">
+        <label for="year1">1st Year</label>
+        <br>
+        <input type="radio" id="year2" name="year_selection" value="2nd Year">
+        <label for="year2">2nd Year</label>
+        <br>
+        <input type="radio" id="year3" name="year_selection" value="3rd Year">
+        <label for="year3">3rd Year</label>
+        <br>
+        <input type="radio" id="year4" name="year_selection" value="4th Year">
+        <label for="year4">4th Year</label>
+        <br><br>
+
+        <h3>Skills/Area of Interest</h3>
+        <input type="checkbox" id="ml" name="skills[]" value="Machine Learning">
+        <label for="ml">Machine Learning</label>
+        <br>
+        <input type="checkbox" id="ds" name="skills[]" value="Data Science">
+        <label for="ds">Data Science</label>
+        <br>
+        <input type="checkbox" id="cyber" name="skills[]" value="Cyber Security">
+        <label for="cyber">Cyber Security</label>
+        <br><br>
+
+        <h3>Department Selection</h3>
+        <label for="department">Department</label>
+        <select id="department" name="department">
+            <option value="Ghazali Block">Ghazali Block</option>
+            <option value="Rumi Block">Rumi Block</option>
+            <option value="Salam Block">Salam Block</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit Form</button>
+        <button type="reset">Reset Form</button>
+
+    </form>
+
+
+</body>
+</html>
